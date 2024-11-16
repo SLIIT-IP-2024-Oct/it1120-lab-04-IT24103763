@@ -4,9 +4,11 @@ public class IT24103763Lab4Q2 {
         
         Scanner input = new Scanner(System.in);
         
-        int num 
+        int num ;
         
         System.out.print("Enter a number:");
         num=input.nextInt();
-        message = (num==0) ? "This number is : Zero" : (num>0) ? "This number is : Negative" : (num<0) ? "This number is : Positive";
+        String message = (num==0) ? "This number is : Zero" : (num>0) ? "This number is : Positive" : "This number is : Negative";
         System.out.print(message);
+    }
+}
